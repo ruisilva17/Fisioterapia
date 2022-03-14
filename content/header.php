@@ -1,4 +1,4 @@
-<header>
+<header >
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
            <a class="navbar-brand" href="index.php"><img src="img/Logo.png" width="100" alt="Logo"></a>
@@ -19,7 +19,9 @@
         </ul>
      </font> 
         <form class="d-flex">
-            <button class="btn btn-outline-success" href="style.css" type="submit">Login</button>
+        <a href="content/pages/login.php">
+        <button class="btn btn-outline-success" type="button">Login</button>
+            </a>
         </form>
         </div>
     </div>
