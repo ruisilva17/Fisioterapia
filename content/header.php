@@ -14,9 +14,9 @@
             <a class="nav-link" href="outro.php">Fisioterapia Respiratória</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="outro.php">Sobre nós</a>
+            <a class="nav-link" href="sobre.php">Sobre nós</a>
             </li>            <li class="nav-item">
-            <a class="nav-link" href="outro.php">Contato</a>
+            <a class="nav-link" href="contato.php">Contacto</a>
             </li>
         </ul>
         <form class="d-flex">
