@@ -17,7 +17,7 @@ include('content/header.php');
         <textarea class="form-control" required name="form-mensagem" id="form-mensagem" rows="3"></textarea>
     </div>
     <div class="mb-3">
-        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-outline-success" type="submit">Enviar</button>
     </div>
 </form>
 </main> 
