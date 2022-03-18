@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "ruizcosta";
-$password = "ruizcosta";
-$dbname = "empresa";
+$username = "fisioterapia";
+$password = "trabalho";
+$dbname = "fisioterapia";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
