@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
         <button type="submit" class="btn btn-primary">Editar</button>
         <a href="index.php?p=eliminarProduto&id=<?= $row["id"]?>" class="btn btn-danger">Eliminar</a>
     </div>
-  </form>
+  </form> 
 </div>
 
 <?php 

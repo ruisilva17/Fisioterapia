@@ -28,18 +28,18 @@
 				</div>
                 <br>
 				<div class="d-flex justify-content-center form_container">
-					<form>
+				<form action="db/login.php" method="post">
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" name="" class="form-control input_user" value="" placeholder="Email">
+							<input type="text" name="form-email" class="form-control input_user" value="" placeholder="Email">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="" class="form-control input_pass" value="" placeholder="Palavra-passe">
+							<input type="password" name="form-palavra-passe" class="form-control input_pass" value="" placeholder="Palavra-passe">
 						</div>
 						<div class="form-group">
 							<div class="custom-control custom-checkbox">
@@ -48,7 +48,7 @@
 							</div>
 						</div>
 							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="button" class="btn login_btn">Login</button>
+				 	<button type="submit" name="submit" class="btn login_btn">Login</button>
 				   </div>
 					</form>
 				</div>

@@ -2,18 +2,18 @@
 session_start();
 include('conn.php');
 
-$username = $_POST['form-username'];
-$password = $_POST['form-password'];
+$email = $_POST['form-email'];
+$password = $_POST['form-palavra-passe'];
 
 $sql = "SELECT * FROM utilizador 
-        WHERE username = '$username' AND password = '$password'";
+        WHERE email = '$email' AND password = '$password'";
 
 $result = $conn->query($sql);
 
 if ($result->num_rows == 1) {
     $row = $result->fetch_assoc();
 
-    $_SESSION['username'] = $row['username'];
+    $_SESSION['email'] = $row['email'];
     $_SESSION['tipoUtilizador'] = $row['id_tipoUtilizador'];
 } 
 

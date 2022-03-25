@@ -2,7 +2,6 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
 <!DOCTYPE html>
 <html>
     
@@ -28,40 +27,40 @@
 				</div>
                 <br>
 				<div class="d-flex justify-content-center form_container">
-					<form>
+					<form action="../../db/registo.php" method="post">
                     <div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" required name="" class="form-control input_user" value="" placeholder="Nome">
+							<input type="text" required name="form-nome" class="form-control input_user" value="" placeholder="Nome">
 						</div>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg></span>
 							</div>
-							<input type="text" required name="" class="form-control input_user" value="" placeholder="Email">
+							<input type="text" required name="form-email" class="form-control input_user" value="" placeholder="Email">
 						</div>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" required name="" class="form-control input_pass" value="" placeholder="Palavra-passe">
+							<input type="password" required name="form-palavra-passe" class="form-control input_pass" value="" placeholder="Palavra-passe">
 						</div>
                         <div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" required name="" class="form-control input_pass" value="" placeholder="Confirmar palavra-passe">
+							<input type="password" required name="form-palavra-passe2" class="form-control input_pass" value="" placeholder="Confirmar palavra-passe">
 						</div>
 							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="submit" class="btn login_btn">Registar</button>
+				 	<button type="submit" name="submit" class="btn login_btn">Registar</button>
 				   </div>
 					</form>
 				</div>
 		
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
-						Já tem conta? <a href="/ExemploPHP1/content/pages/login.php" class="ml-2">Inicie sessão</a>
+						Já tem conta?<a href="/ExemploPHP1/content/pages/login.php" class="ml-2">Inicie sessão</a>
 					</div>
 					
 				</div>

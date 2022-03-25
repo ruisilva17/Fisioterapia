@@ -1,3 +1,4 @@
+//Não mexer!
 <?php
 session_unset();
 session_destroy();
